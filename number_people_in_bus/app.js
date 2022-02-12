@@ -13,8 +13,14 @@ function peopleInBus (array) {
     return inBus - outBus;
 }
 
-console.log(peopleInBus([[10,0],
-[3,5],
-[5,8]
+console.log(peopleInBus([
+    [10,0],
+    [3,5],
+    [5,8]
 ]));
 
+console.log(peopleInBus([
+    [2,0],
+    [0,0],
+    [10,5]
+]));
