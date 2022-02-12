@@ -3,7 +3,9 @@
 function binaryAddition (a, b) {
     if (typeof a === "number" && typeof b === "number") {
         return (a + b).toString(2);
-    } else return null;
+    }
+
+    return null;
 }
 
 let num = 9;

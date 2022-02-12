@@ -12,4 +12,9 @@ function sumOfPositive (array) {
     return sum;
 }
 
+const fn = arr => arr
+    .filter(number => number > 0)
+    .reduce((prev, curr) => prev + curr)
+
 console.log(sumOfPositive(array));
+console.log(fn(array));
