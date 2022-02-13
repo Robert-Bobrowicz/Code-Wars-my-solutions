@@ -34,10 +34,10 @@ function tribonacci(signature,n) {
     return result;
 }
 
-console.log(tribonacciSequence([0,0,1], 10));
-console.log(tribonacciSequence([0,1,1], 10));
-console.log(tribonacciSequence([1,1,1], 10));
-console.log(tribonacciSequence([1,1,1], 20));
-console.log(tribonacciSequence([1,1,1], 0));
-console.log(tribonacciSequence([1,1,1], 1));
-console.log(tribonacciSequence([1,1,1], 2));
+console.log(tribonacci([0,0,1], 10));
+console.log(tribonacci([0,1,1], 10));
+console.log(tribonacci([1,1,1], 10));
+console.log(tribonacci([1,1,1], 20));
+console.log(tribonacci([1,1,1], 0));
+console.log(tribonacci([1,1,1], 1));
+console.log(tribonacci([1,1,1], 2));
