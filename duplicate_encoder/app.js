@@ -49,3 +49,15 @@ console.log(duplicateEncode('abccdd'));
 console.log(duplicateEncode('dddd'));
 console.log(duplicateEncode('ffff'));
 console.log(duplicateEncode('frfafwfd'));
+
+
+// lub
+function duplicateEncode(word){
+    return word
+        .toLowerCase()
+        .split('')
+        .map( function (a, i, w) {
+            return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
+        })
+        .join('');
+}
