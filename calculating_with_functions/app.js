@@ -91,7 +91,7 @@ function times( arg ) {
 }
 
 function dividedBy( arg ) {
-    return a => Math.round(a / arg);
+    return a => Math.floor(a / arg);
 }
 
 
