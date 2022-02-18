@@ -7,7 +7,7 @@
 
 function sortArray(array) {
     let oddArray = array.filter(el => el % 2).sort((a, b) => {return a-b});
-    return array.map(el => el %2 === 0? el : oddArray.shift());
+    return array.map(el => el % 2 === 0? el : oddArray.shift());
 }
 
 console.log(sortArray([3,1,4,2,5,9,12,7]));
