@@ -1,4 +1,4 @@
-//
+// given an array check if ti includes x
 function needOne(array, x) {
     return array.includes(x);
 }
