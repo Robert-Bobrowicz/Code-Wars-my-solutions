@@ -10,7 +10,6 @@ function romanDate(date) {
             date -= arabic;
         }
     });
-
     return result;
 }
 
